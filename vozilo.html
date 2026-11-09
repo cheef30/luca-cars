@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="sr-Latn" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vozilo | Luca Cars Sombor</title>
+<meta name="description" content="Detalji vozila iz ponude Luca Cars u Somboru: fotografije, specifikacija i cena.">
+<link rel="canonical" href="https://cheef30.github.io/luca-cars/vozilo.html">
+<meta name="theme-color" content="#0B0D10">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="sr_RS">
+<meta property="og:site_name" content="Luca Cars">
+<meta property="og:title" content="Vozilo | Luca Cars Sombor">
+<meta property="og:description" content="Detalji vozila iz ponude Luca Cars u Somboru: fotografije, specifikacija i cena.">
+<meta property="og:url" content="https://cheef30.github.io/luca-cars/vozilo.html">
+<meta property="og:image" content="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SutOEZ4twL-uuNcEpwwVgHwmrLd7KqmzbOhIECIXRTkbOp9bhR2r4d53oqVN2N6ytyyumzsqUqEn9nAwPIhBfDKMnV4dcfxzhqaBbbdOuFgwiQhVW2hgho5qgPK8e-7tVmFQdj0A=w1200-h630-c">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Plac Luca Cars u Somboru sa nizom automobila">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://lh3.googleusercontent.com" crossorigin>
+<link rel="preload" href="assets/fonts/instrument-serif.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/instrument-serif-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/inter-tight.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="data/vozila.json" as="fetch" type="application/json" crossorigin>
+<link rel="stylesheet" href="assets/css/style.css">
+<script>document.documentElement.className='js'</script>
+<script src="assets/js/app.js" defer></script>
+</head>
+<body data-page="vozilo">
+<a class="skip" href="#main">Preskoči na sadržaj</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="1.5"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></symbol>
+<symbol id="i-gauge" viewBox="0 0 24 24"><path d="M4.2 17.5a8.5 8.5 0 1 1 15.6 0"/><path d="M12 14l3.8-4.2"/><circle cx="12" cy="14" r="1.3"/></symbol>
+<symbol id="i-fuel" viewBox="0 0 24 24"><path d="M5 20.5V5.5A1.5 1.5 0 0 1 6.5 4h6A1.5 1.5 0 0 1 14 5.5v15M3.5 20.5h12M5 10h9"/><path d="M14 8.5h1.5A1.5 1.5 0 0 1 17 10v5.5a1.5 1.5 0 0 0 3 0V8.6L17.6 6"/></symbol>
+<symbol id="i-gear" viewBox="0 0 24 24"><circle cx="6" cy="5.5" r="1.6"/><circle cx="12" cy="5.5" r="1.6"/><circle cx="18" cy="5.5" r="1.6"/><circle cx="6" cy="18.5" r="1.6"/><circle cx="12" cy="18.5" r="1.6"/><path d="M6 7.1v9.8M12 7.1v9.8M18 7.1V12H6"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 3.5h2.6l1.4 4-2 1.3a11 11 0 0 0 6.6 6.6l1.3-2 4 1.4v2.6a1.6 1.6 0 0 1-1.7 1.6A16.5 16.5 0 0 1 5 5.2a1.6 1.6 0 0 1 1.6-1.7z"/></symbol>
+<symbol id="i-wa" viewBox="0 0 24 24"><path d="M3.8 20.2l1.3-4.1a8.4 8.4 0 1 1 3 2.9z"/><path d="M9.3 8.3c.3-.4.6-.5 1-.4l.9 2.1-.7.9a5.6 5.6 0 0 0 2.6 2.6l.9-.7 2.1.9c.1.4 0 .8-.4 1.1-.7.5-1.7.6-2.8.1a7.6 7.6 0 0 1-3.9-3.9c-.4-1.1-.3-2 .3-2.7z"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4.5 12h15M13.5 6l6 6-6 6"/></symbol>
+<symbol id="i-chev-l" viewBox="0 0 24 24"><path d="M14.5 5.5L8 12l6.5 6.5"/></symbol>
+<symbol id="i-chev-r" viewBox="0 0 24 24"><path d="M9.5 5.5L16 12l-6.5 6.5"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></symbol>
+<symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.2l2.7 5.6 6.1.8-4.5 4.2 1.1 6-5.4-2.9-5.4 2.9 1.1-6-4.5-4.2 6.1-.8z"/></symbol>
+<symbol id="i-expand" viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></symbol>
+<symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5M12 8h.01"/></symbol>
+<symbol id="i-ext" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+</defs></svg>
+<header class="nav" data-nav>
+  <div class="nav__inner wrap">
+    <a class="brand" href="index.html" aria-label="Luca Cars, početna"><span class="brand__name">Luca</span><span class="brand__cars">Cars</span></a>
+    <nav class="nav__links" aria-label="Glavna navigacija"><a href="index.html">Početna</a><a href="ponuda.html" aria-current="page">Ponuda</a><a href="o-nama.html">O nama</a><a href="kontakt.html">Kontakt</a></nav>
+    <div class="nav__cta"><a class="nav__phone magnetic" href="tel:+381631528666"><svg class="i" aria-hidden="true"><use href="#i-phone"></use></svg><span class="num">063 152 8666</span></a></div>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu"><span></span><span></span><span class="sr-only">Otvori meni</span></button>
+  </div>
+</header>
+<div class="menu grain" id="menu">
+  <nav class="menu__links" aria-label="Mobilna navigacija"><a href="index.html"><small>01</small>Početna</a><a href="ponuda.html" aria-current="page"><small>02</small>Ponuda</a><a href="o-nama.html"><small>03</small>O nama</a><a href="kontakt.html"><small>04</small>Kontakt</a></nav>
+  <div class="menu__foot">
+    <p>Ilije Birčanina 60, 25000 Sombor</p>
+    <div class="btn-row"><a class="btn btn--gold" href="tel:+381631528666"><svg class="i" aria-hidden="true"><use href="#i-phone"></use></svg>063 152 8666</a><a class="btn btn--ghost" href="https://wa.me/381631528666" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-wa"></use></svg>WhatsApp</a></div>
+  </div>
+</div>
+<main id="main">
+<div id="vozilo">
+  <div class="wrap v-top" aria-hidden="true">
+    <div class="v-grid"><div class="vg__main media skel" style="aspect-ratio:3/2"></div><div class="v-panel" style="min-height:420px"></div></div>
+  </div>
+</div>
+<noscript><div class="wrap" style="padding:160px 0 80px"><p class="lead">Za prikaz vozila uključite JavaScript ili nas pozovite na 063 152 8666.</p></div></noscript>
+</main>
+<footer class="footer grain">
+  <div class="wrap">
+    <div class="footer__top">
+      <div>
+        <a class="brand" href="index.html" aria-label="Luca Cars, početna"><span class="brand__name">Luca</span><span class="brand__cars">Cars</span></a>
+        <p class="lead" style="margin-top:24px">Prodaja polovnih automobila u Somboru.</p>
+      </div>
+      <div class="footer__cols">
+        <div><h2>Plac</h2><address>Luca Cars DOO<br>Ilije Birčanina 60<br>25000 Sombor</address></div>
+        <div><h2>Kontakt</h2><ul><li><a class="num" href="tel:+381631528666">063 152 8666</a></li><li><a href="https://wa.me/381631528666" target="_blank" rel="noopener">WhatsApp</a></li><li><a href="https://www.google.com/maps/search/?api=1&query=Luca+Cars+Ilije+Bir%C4%8Danina+60+Sombor" target="_blank" rel="noopener">Google mape</a></li></ul></div>
+        <div><h2>Stranice</h2><ul><li><a href="ponuda.html">Ponuda vozila</a></li><li><a href="o-nama.html">O nama</a></li><li><a href="kontakt.html">Kontakt</a></li></ul></div>
+      </div>
+    </div>
+    <div class="footer__bottom"><p>© <span data-year>2026</span> Luca Cars DOO, Sombor</p><p>4,6 od 5 na Google-u, 17 recenzija</p></div>
+  </div>
+</footer>
+<div class="callbar" role="complementary" aria-label="Brzi kontakt">
+  <a class="callbar__call" href="tel:+381631528666"><svg class="i" aria-hidden="true"><use href="#i-phone"></use></svg><span>Pozovi<small class="num">063 152 8666</small></span></a>
+  <a class="callbar__wa" href="https://wa.me/381631528666" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-wa"></use></svg><span>WhatsApp<small>Pišite nam</small></span></a>
+</div>
+</body>
+</html>
