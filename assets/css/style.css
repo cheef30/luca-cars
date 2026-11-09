@@ -218,7 +218,7 @@ em,.it{font-style:italic}
 .hero__title .ln:nth-child(2)>span{animation-delay:.14s}
 .hero__title .ln:nth-child(3)>span{animation-delay:.28s}
 .hero__title .soft{color:rgba(236,232,224,.62)}
-.hero__lead{margin-top:28px;max-width:44ch;color:rgba(236,232,224,.8);font-size:clamp(1.0625rem,1.3vw,1.1875rem);opacity:0;animation:fadeUp 1s var(--ease-out) .4s forwards}
+.hero__lead{margin-top:28px;max-width:44ch;color:rgba(236,232,224,.8);font-size:clamp(1.0625rem,1.3vw,1.1875rem)}
 .hero__ctas{margin-top:36px;opacity:0;animation:fadeUp 1s var(--ease-out) .5s forwards}
 @keyframes rise{to{transform:translateY(0)}}
 @keyframes fadeIn{to{opacity:1}}
