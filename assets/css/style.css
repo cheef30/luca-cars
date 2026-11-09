@@ -507,7 +507,7 @@ html.lock,html.lock body{overflow:hidden}
 .photo-band{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
 .photo-band .media{aspect-ratio:3/4;border-radius:3px}
 .photo-band .media:nth-child(2){transform:translateY(clamp(20px,4vw,56px))}
-@media (max-width:640px){.photo-band{grid-template-columns:1fr 1fr}.photo-band .media:nth-child(3){display:none}}
+@media (max-width:640px){.photo-band{grid-template-columns:1fr 1fr}.photo-band .media:nth-child(2){transform:none}.photo-band .media:nth-child(3){grid-column:1 / -1;aspect-ratio:16/10}}
 
 /* Kontakt */
 .contact-grid{display:grid;gap:clamp(48px,6vw,88px)}
