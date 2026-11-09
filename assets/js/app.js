@@ -109,7 +109,12 @@
   function initNav() {
     var nav = $('[data-nav]');
     if (!nav) return;
-    var onScroll = function () { nav.classList.toggle('is-scrolled', window.scrollY > 24); };
+    var ticking = false;
+    var onScroll = function () {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function () { ticking = false; nav.classList.toggle('is-scrolled', window.scrollY > 24); });
+    };
     onScroll();
     window.addEventListener('scroll', onScroll, { passive: true });
 

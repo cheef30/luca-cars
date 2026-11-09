@@ -48,7 +48,7 @@ body{
   margin:0;background:var(--ink);color:var(--bone);
   font-family:var(--sans);font-size:1.0625rem;line-height:1.6;font-weight:400;
   -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
-  text-rendering:optimizeLegibility;overflow-x:clip;
+  font-kerning:normal;overflow-x:clip;
 }
 img,svg,iframe{display:block;max-width:100%}
 img{height:auto}
